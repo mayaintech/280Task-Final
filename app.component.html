@@ -1,0 +1,15 @@
+
+
+<div *ngIf="countryInfo.countryName">
+  <h2>{{ countryInfo.countryName }}</h2>
+  <p><strong>Capital:</strong> {{ countryInfo.capital }}</p>
+  <p><strong>Region:</strong> {{ countryInfo.region }}</p>
+  <p><strong>Income Level:</strong> {{ countryInfo.incomeLevel }}</p>
+  <p><strong>Population:</strong> {{ population | number }}</p>
+  <p><strong>GDP:</strong> {{ gdp | number }}</p>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
