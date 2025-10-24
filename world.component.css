@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #4F3B26;
+}
+
+.worldmap, .country-info {;
+    padding: 10px;
+    border: none;
+}
+
+
+  path {
+    fill: black;
+    transition: fill 0.3s;
+    cursor: pointer;
+
+}
+
+path.highlighted {
+    fill: pink;
+}
+
+.worldmap {
+    width: 80%;
+    height: auto;
+    border: none;
+}
+
+.country-info {
+    background-color: pink;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.worldh2 {
+    font: Optima, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 45px;
+}
